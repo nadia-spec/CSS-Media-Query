@@ -1,0 +1,26 @@
+body {
+    color: gold;
+    background-color: black;
+}
+h1 { 
+    font-size: 6rem;
+}
+h2 {
+    font-size: 3rem;
+}
+
+@media (max-width: 500px) {
+    body {
+        color:darkgreen
+    }
+}
+@media (orientation: landscape) and (max-width:500px) {
+    h1 {
+        color: darkred;
+    }
+}
+@media (orientation: portrait) {
+    h2 {
+        color: rgb(179, 179, 175);
+    }
+}
